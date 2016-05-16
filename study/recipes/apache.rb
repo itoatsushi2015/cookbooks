@@ -18,6 +18,6 @@ service 'httpd' do
   action [ :enable, :start ]
 end
  
-template "/etc/httpd/conf/httpd.conf" do
-  source "httpd-2.2.conf.erb"
-end
+#template "/etc/httpd/conf/httpd.conf" do
+#  source "httpd-2.2.conf.erb"
+#end
