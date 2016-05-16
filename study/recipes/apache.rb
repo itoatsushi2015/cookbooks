@@ -7,12 +7,6 @@
 # All rights reserved - Do Not Redistribute
 #
 
-%w{php php-pdo php-mbstring php-mysqlnd}.each do |pkg|
-  package pkg do
-    action :install
-  end
-end
-
 %w{httpd httpd-devel mod_ssl}.each do |pkg|
   package pkg do
     action :install
