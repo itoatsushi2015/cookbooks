@@ -11,3 +11,4 @@
   package pkg do
     action :install
   end
+end
