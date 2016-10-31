@@ -1,2 +1,2 @@
 # cookbooks
-cookbook用リポジトリ
+cookbook用リポジトリです
